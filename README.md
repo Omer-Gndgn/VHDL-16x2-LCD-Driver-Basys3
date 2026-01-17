@@ -46,8 +46,8 @@ In this setup, an **Arduino Uno** was used solely as an external **5V Power Supp
 
 ## 📷 Demonstration
 The project displays:
-Line 1: "SAKARYA UNIVERSITESI"
-Line 2: "ELEKTRIK ELEKTRONIK MUHENDISLIGI" (Scrolling)
+Line 1: "SAKARYA UNIV."
+Line 2: "MUHENDISLIK" 
 <img width="721" height="1600" alt="image" src="https://github.com/user-attachments/assets/ec5b7337-9f4f-48d7-8895-44560b4c0f52" />
 
 ## 👤 Author
