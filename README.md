@@ -1,11 +1,11 @@
 # VHDL 16x2 LCD Driver for Basys 3 FPGA
-This project implements a VHDL-based driver for a standard HD44780 16x2 LCD module using the Digilent Basys 3 FPGA board (Artix-7). The driver handles the 4-bit initialization sequence, timing constraints, and includes a scrolling text feature.
+This project implements a VHDL-based driver for a standard HD44780 16x2 LCD module using the Digilent Basys 3 FPGA board (Artix-7). The driver handles the 4-bit initialization sequence and timing constraints to display static text on the screen.
 
 ## Features 
 - **Pure VHDL:** Written in VHDL (IEEE 1164).
 - **4-Bit Mode:** Uses only 6 I/O pins (4 Data + RS + E) to save FPGA resources.
 - **Auto Initialization:** Implements the proper power-up and initialization sequence specified in the HD44780 datasheet.
-- **Scrolling Text:** Supports scrolling long text messages across the screen.
+- **Static Display:** Designed to display fixed text strings on both lines.
 - **Custom Timing:** Delays are calculated for a 100 MHz system clock.
 
 ## Hardware Setup
@@ -48,6 +48,7 @@ In this setup, an **Arduino Uno** was used solely as an external **5V Power Supp
 The project displays:
 Line 1: "SAKARYA UNIV."
 Line 2: "MUHENDISLIK" 
+
 <img width="721" height="1600" alt="image" src="https://github.com/user-attachments/assets/ec5b7337-9f4f-48d7-8895-44560b4c0f52" />
 
 ## 👤 Author
